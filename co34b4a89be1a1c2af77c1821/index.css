@@ -1,0 +1,93 @@
+html, body {
+    background: #C6C6C6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 375px;
+}
+#master{
+    margin-top: solid #C6C6C6 1px;
+}
+header, .info, .interactions, .activity{
+    background-color: white;
+}
+header{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 4px 9px;
+    
+}
+
+.logo{
+    width: 123px;
+}
+.avatar{
+    margin-top: 13px;
+    border-radius:90px;
+}
+
+.avatar{
+    height: 38px;
+    
+}
+
+h3{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 0px;
+    font-size: 15px;
+}
+.info{
+    margin: 1px 0 0px;;
+    display: flex;
+}
+
+.info .avatar{
+    margin: 15px 10px 0px 13px;
+    
+   
+}
+
+.post-img{
+    background: white;
+    width: 375px;
+    margin: 0px;
+    
+    padding-bottom: 6px;
+}
+.error{
+    background: white;
+     height: 378px;
+   
+}
+.interactions{
+    padding: 8px 8px;
+    margin: 0px;
+}
+.interactions img{
+    width: 23px;
+}
+.btn{
+    margin-right: 6px;
+}
+.btn:hover{
+    opacity: 0.5;
+    
+}
+.bold-text{
+    font-weight: bold;
+}
+.activity{
+    
+    padding: 0 8px 6px;
+    
+}
+
+.activity p{
+    margin-bottom: 10px;
+
+}
